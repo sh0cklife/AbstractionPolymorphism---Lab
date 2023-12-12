@@ -1,0 +1,15 @@
+﻿namespace Raiding.Models.Heroes;
+
+internal class Druid: Healer
+{
+    public Druid(string name) : base(name)
+    {
+    }
+
+    public override int Power => 80;
+
+    public override string CastAbility()
+    {
+        return base.CastAbility();
+    }
+}
